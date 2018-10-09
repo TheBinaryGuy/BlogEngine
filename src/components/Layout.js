@@ -10,7 +10,7 @@ export default (props) => {
                 <meta name="Description" content="A blog for those who can only count from 0 to 1" />
                 <meta name="Author" content="TheBinaryGuy" />
                 <meta charset="utf-8" />
-                <meta name="Robots" content="index, follow">
+                <meta name="Robots" content="index, follow" />
                 <title>Blog Engine</title>
 
             </Head>
