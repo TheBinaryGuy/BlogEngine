@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import posts from '../posts/posts';
+import CardComponent from '../src/components/CardComponent';
 
 const Index = () => (
     <div id="indexRoot">
@@ -7,21 +8,21 @@ const Index = () => (
             posts.posts.map((p, i) => {
                 return (
                     <Link key={i} href={`post?id=${p.postId}`}>
-                        <a>{p.postTitle}</a>
+                        <div>
+                            <CardComponent title={p.postTitle} author={p.authorName} date={p.postDate} />
+                        </div>
                     </Link>
                 );
             })
         }
-        <p>Hello Next.js!</p>
         <style jsx global>
         {`
             * {
                 font-family: Quicksand, sans-serif;
                 box-sizing: content-box;
-            }
-        
-            html, body {
+                -webkit-box-sizing: border-box;
                 margin: 0;
+                padding: 0;
             }
             
             body {

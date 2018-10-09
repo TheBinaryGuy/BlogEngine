@@ -15,9 +15,9 @@ export default {
         {
             postId: 2,
             postTitle: 'Second Post',
-            postDay: 'SUN',
-            postDate: '07 OCT 2018',
-            postTime: '20:25',
+            postDay: 'TUE',
+            postDate: '09 OCT 2018',
+            postTime: '20:00',
             authorAvatarLocation: '../static/img/TBG.jpg',
             authorName: 'TheBinaryGuy',
             content: function () { return postsContent.find(p => p.id == this.postId).__html; }
@@ -25,11 +25,11 @@ export default {
         {
             postId: 3,
             postTitle: 'Third Post',
-            postDay: 'SUN',
-            postDate: '07 OCT 2018',
-            postTime: '20:25',
+            postDay: 'WED',
+            postDate: '10 OCT 2018',
+            postTime: '22:25',
             authorAvatarLocation: '../static/img/TBG.jpg',
-            authorName: 'TheBinaryGuy',
+            authorName: 'Heet Mehta',
             content: function () { return postsContent.find(p => p.id == this.postId).__html; }
         }
     ]
