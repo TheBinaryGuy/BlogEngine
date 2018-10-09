@@ -12,7 +12,7 @@ const Index = () => (
                 );
             })
         }
-        <p>Hello Next.js</p>
+        <p>Hello Next.js, this is a test!</p>
         <style jsx global>
         {`
             * {
