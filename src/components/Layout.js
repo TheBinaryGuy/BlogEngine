@@ -7,9 +7,9 @@ export default (props) => {
                 <title>TheBinaryBlog</title>
                 <meta name="description" content="A blog for those who can only count from 0 to 1" />
 
-                <meta itemprop="name" content="TheBinaryBlog" />
-                <meta itemprop="description" content="A blog for those who can only count from 0 to 1" />
-                <meta itemprop="image" content="https://i.imgur.com/u6fGNkM.jpg" />
+                <meta itemProp="name" content="TheBinaryBlog" />
+                <meta itemProp="description" content="A blog for those who can only count from 0 to 1" />
+                <meta itemProp="image" content="https://i.imgur.com/u6fGNkM.jpg" />
 
                 <meta property="og:url" content="https://blogengine.thebinaryguy.me" />
                 <meta property="og:type" content="website" />
